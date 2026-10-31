@@ -1,10 +1,10 @@
-# [Game name]
+# [Hell Run]
 
-**Team:** [Name 1] · [Name 2] · [Name 3]
+**Team:** [Ilay Fridman]
 **Course:** Mobile Game Development, Shenkar
 
 ## The game in one sentence
-[What does the player do, and why do they come back tomorrow?]
+[A fast paced rouge like endless runner where the player tries to escape hell using the epic power of metal]
 
 ## How to open and build
 1. Open the project in Unity 6 LTS (the exact version is on Moodle).

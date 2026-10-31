@@ -23,5 +23,9 @@ Who: Yuval
 ```
 
 ---
-
-<!-- Your entries start here -->
+## 31/10/2026 — Decided what the game is and how it will be played.
+Options: Hell Run / Fantasy Run
+Chose: I Chose Hell Run because fantasy run sounds regular, but escaping from hell with metal sounds much more fun
+AI: AI mainly helped me organize the idea into a coherent game concept
+Who: Ilay
+```

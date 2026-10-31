@@ -1,4 +1,4 @@
-# Pitch: [Hell Run]
+# Pitch: Hell Run
 
 Hell Run is a fast-paced, metal-themed roguelike rhythm runner for mobile. The player runs through Hell, blasting demons with guitar chords synchronized to heavy metal drums, dodging enemies, collecting loot, and defeating powerful bosses on the way to escaping Hell.
 

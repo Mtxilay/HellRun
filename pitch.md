@@ -2,6 +2,11 @@
 
 Hell Run is a fast-paced, metal-themed roguelike rhythm runner for mobile. The player runs through Hell, blasting demons with guitar chords synchronized to heavy metal drums, dodging enemies, collecting loot, and defeating powerful bosses on the way to escaping Hell.
 
+<img width="213" height="462" alt="8-Bit Lava Guitar Dungeon" src="https://github.com/user-attachments/assets/43b58c81-2a0a-41f3-b52d-73c04640d012" />
+
+[concept art]
+
+
 ## Core loop
 The player automatically runs forward through three lanes, switching between them to dodge monsters, collect items, and position themselves for attacks.
 

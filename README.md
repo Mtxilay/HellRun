@@ -1,10 +1,10 @@
-# [Hell Run]
+# Hell Run
 
-**Team:** [Ilay Fridman]
+**Team:** Ilay Fridman
 **Course:** Mobile Game Development, Shenkar
 
 ## The game in one sentence
-[A fast paced rouge like endless runner where the player tries to escape hell using the epic power of metal]
+A fast paced rouge like endless runner where the player tries to escape hell using the epic power of metal
 
 ## How to open and build
 1. Open the project in Unity 6 LTS (the exact version is on Moodle).

@@ -22,10 +22,15 @@ AI: suggested a SQLite database — rejected, too heavy for one save file
 Who: Yuval
 ```
 
----
+
 ## 31/10/2026 — Decided what the game is and how it will be played.
 Options: Hell Run / Fantasy Run
 Chose: I Chose Hell Run because fantasy run sounds regular, but escaping from hell with metal sounds much more fun
 AI: AI mainly helped me organize the idea into a coherent game concept
+Who: Ilay
+
+## 11/11/2026 — decided API version is level 36
+Options: 37/36
+Chose: i chose 36 to allow some supports for older versions
 Who: Ilay
 ```

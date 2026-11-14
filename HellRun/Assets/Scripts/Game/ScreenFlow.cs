@@ -10,6 +10,17 @@ public class ScreenFlow : MonoBehaviour
     {
         SceneManager.LoadScene("Level");
     }
+
+    public void CompleteLevel()
+    {
+        if (Services.Settings.VibrationOn)
+        {
+            Handheld.Vibrate();
+            Debug.Log("Vibration triggered on level completion.");
+        }
+            
+    }
+
         public void LoadHome()
     {
         SceneManager.LoadScene("Home");

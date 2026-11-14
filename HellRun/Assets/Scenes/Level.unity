@@ -119,6 +119,50 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &165558282
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 165558284}
+  - component: {fileID: 165558283}
+  m_Layer: 0
+  m_Name: ScreenFlow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &165558283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165558282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b18cbce9840b17438c47d5687cb14bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Game::ScreenFlow
+--- !u!4 &165558284
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165558282}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 573.2117, y: 1355.9313, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &298148057
 GameObject:
   m_ObjectHideFlags: 0
@@ -294,50 +338,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4424240670367652574, guid: cdb58cb55df1e654c9162f8cc0f2e79d, type: 3}
   m_PrefabInstance: {fileID: 528770061}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &725390661
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 725390663}
-  - component: {fileID: 725390662}
-  m_Layer: 0
-  m_Name: ScreenFlow
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &725390662
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 725390661}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b18cbce9840b17438c47d5687cb14bf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ScreenFlow
---- !u!4 &725390663
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 725390661}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &869962151
 GameObject:
   m_ObjectHideFlags: 0
@@ -421,8 +421,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 725390662}
-        m_TargetAssemblyTypeName: ScreenFlow, Assembly-CSharp
+      - m_Target: {fileID: 165558283}
+        m_TargetAssemblyTypeName: ScreenFlow, Game
         m_MethodName: LoadHome
         m_Mode: 1
         m_Arguments:
@@ -433,7 +433,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 725390662}
+      - m_Target: {fileID: 165558283}
         m_TargetAssemblyTypeName: ScreenFlow, Game
         m_MethodName: CompleteLevel
         m_Mode: 1
@@ -1494,5 +1494,5 @@ SceneRoots:
   m_Roots:
   - {fileID: 1449219431}
   - {fileID: 891011184}
-  - {fileID: 725390663}
   - {fileID: 1253606186}
+  - {fileID: 165558284}

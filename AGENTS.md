@@ -37,6 +37,7 @@ Additional systems, configuration locations, and initialization order will be do
 - Reuse existing components and Unity functionality when possible.
 - Don't implement additional features beyond the requested scope without approval.
 
+
 ## Conventions
 
 Follow existing naming conventions, code style, and script locations.

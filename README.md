@@ -17,3 +17,7 @@ A fast paced rouge like endless runner where the player tries to escape hell usi
 | `pitch.md` | One-page pitch of the game |
 | `DECISIONS.md` | Every real decision the team made, and why |
 | `AGENTS.md` | Context for AI coding tools: architecture, rules, conventions |
+
+Architecture 14.11.26:
+<img width="716" height="522" alt="HellRunArch141126" src="https://github.com/user-attachments/assets/22596c35-35dd-4389-a54d-5f3829ea419d" />
+

@@ -33,4 +33,9 @@ Who: Ilay
 Options: 37/36
 Chose: i chose 36 to allow some supports for older versions
 Who: Ilay
+
+## 14/11/2026 — Implemented Services using AI
+Options: Code myself/Let AI Code
+Chose: i let the ai create the code because that is how the industry works today and i need to practice code reviewing AI
+Who: Ilay
 ```

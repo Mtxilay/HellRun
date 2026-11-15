@@ -6,20 +6,24 @@ If using Claude Code, also create a `CLAUDE.md` containing one line: `@AGENTS.md
 
 ## The game
 
-Hell Run is a fast-paced, metal-themed roguelike rhythm runner for Android, played in portrait mode with one thumb. The player automatically runs through three lanes of Hell, dodging monsters, avoiding traps, and collecting loot while using color-matched guitar chords to fire lasers at enemies in the current lane. Playing chords in sync with heavy metal drum beats deals increased damage. hitting a monster with the wrong chord(wrong color) deals very weak damage.  while enemies that reach the player damage the guitar's durability until it breaks and the run ends. Players build Rage in a progress bar that can be consumed to unleash powerful attacks, face increasingly difficult enemies and bosses, and use Solo Mode during boss fights. Between runs, they can unlock and upgrade guitars with different stats and unique abilities. Procedurally arranged encounters make each run different as players progress through Hell and attempt to escape.
+Hell Run is a fast-paced, metal-themed roguelike rhythm runner for Android, played in portrait mode with one thumb. The player automatically runs through three lanes of Hell, dodging monsters, avoiding traps, and collecting loot while using color-matched guitar chords to fire lasers at enemies in the current lane. Playing chords in sync with heavy metal drum beats deals significantly more damage, while using the wrong chord color deals very little damage. Enemies that reach the player force melee combat, damaging the guitar's durability until it breaks and the run ends. Running and defeating monsters fill a Rage bar that can be consumed to unleash powerful attacks. Players face increasingly difficult enemies and bosses, with Solo Mode available during boss fights. Between runs, they can unlock and upgrade guitars with different stats and unique abilities. Procedurally generated encounters make each run different as players progress through Hell and attempt to escape.
 
 ## Tech
 
 - Engine: Unity 6 LTS, C#
 - Target: Android (portrait)
 - UI: Bloodlines - Dark UI
-- Art style: 8-bit pixel art, top-down 2D
+- Art style: 8-bit pixel art, strictly top-down 2D
 
 ## Architecture
 
-All gameplay areas share a single Level scene. Levels are procedurally generated, with each area featuring its own monsters, environment graphics, and difficulty progression.
+All gameplay takes place in a single Level scene. The game contains three main levels, each procedurally generated from reusable environment assets and enemy encounters.
 
-Each area consists of 10 (Dynamic number that might cahnge) sublevels, which are variations of the current area with progressively stronger monsters, faster movement, and faster music. After completing all 10 sublevels, the player advances to the next area of Hell.
+Each level has its own environment, enemies, and boss. To advance, the player must defeat a predetermined number of monsters to trigger the boss fight, then defeat the boss.
+
+Difficulty increases dynamically within each level based on the number of monsters killed. As the kill count rises, enemies become stronger, movement speeds up, and the music tempo increases, making combat progressively more challenging.
+
+Difficulty also increases between levels, introducing tougher enemies, faster gameplay, and more complex encounters. Completing all three levels allows the player to escape Hell.
 
 During runs, players collect monster parts and other resources that can be used to upgrade their guitars between runs.
 
@@ -36,7 +40,7 @@ Additional systems, configuration locations, and initialization order will be do
 - Avoid unnecessary abstractions, dependencies, and overengineering.
 - Reuse existing components and Unity functionality when possible.
 - Don't implement additional features beyond the requested scope without approval.
-
+- Prioritize rhythm-based guitar combat as the core gameplay mechanic.
 
 ## Conventions
 

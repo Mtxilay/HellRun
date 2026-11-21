@@ -18,6 +18,7 @@ public class ScreenFlow : MonoBehaviour
             Handheld.Vibrate();
             Debug.Log("Vibration triggered on level completion.");
         }
+        LoadHome();
             
     }
 

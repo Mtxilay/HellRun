@@ -1,0 +1,483 @@
+fileFormatVersion: 2
+guid: 0b263f1ea5011534394505a49122b7e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8314262571342382061
+    second: hell_run_weak_demon_blue_256_0
+  - first:
+      213: -2824088412678851095
+    second: hell_run_weak_demon_blue_256_1
+  - first:
+      213: 1411572598270725630
+    second: hell_run_weak_demon_blue_256_2
+  - first:
+      213: 9017601991805118623
+    second: hell_run_weak_demon_blue_256_3
+  - first:
+      213: -4746621061279104899
+    second: hell_run_weak_demon_blue_256_4
+  - first:
+      213: 115021539201739986
+    second: hell_run_weak_demon_blue_256_5
+  - first:
+      213: 5150647198386560382
+    second: hell_run_weak_demon_blue_256_6
+  - first:
+      213: -6634866229461360321
+    second: hell_run_weak_demon_blue_256_7
+  - first:
+      213: 7471563437864028798
+    second: hell_run_weak_demon_blue_256_8
+  - first:
+      213: -6389914659968459424
+    second: hell_run_weak_demon_blue_256_9
+  - first:
+      213: -6020856918414391469
+    second: hell_run_weak_demon_blue_256_10
+  - first:
+      213: 1619006366730275102
+    second: hell_run_weak_demon_blue_256_11
+  - first:
+      213: 4328596699893770092
+    second: hell_run_weak_demon_blue_256_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hell_run_weak_demon_blue_256_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 256
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3403ef1c1326370800000000000000
+      internalID: 8314262571342382061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hell_run_weak_demon_blue_256_1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 27
+        width: 252
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5faf32d82dec8d0800000000000000
+      internalID: -2824088412678851095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hell_run_weak_demon_blue_256_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 60
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd0a9e9cc9e69310800000000000000
+      internalID: 1411572598270725630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hell_run_weak_demon_blue_256_3
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 66
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f982667fb35f42d70800000000000000
+      internalID: 9017601991805118623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hell_run_weak_demon_blue_256_4
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1
+        width: 55
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70421f1b4d902eb0800000000000000
+      internalID: -4746621061279104899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hell_run_weak_demon_blue_256_5
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 45
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc63a10b73a89100800000000000000
+      internalID: 115021539201739986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hell_run_weak_demon_blue_256_6
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1
+        width: 61
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d113f6656ca7740800000000000000
+      internalID: 5150647198386560382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hell_run_weak_demon_blue_256_7
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 18
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3168bc31583ce3a0800000000000000
+      internalID: -6634866229461360321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hell_run_weak_demon_blue_256_8
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 23
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a8ea65c5350b760800000000000000
+      internalID: 7471563437864028798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hell_run_weak_demon_blue_256_9
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 3
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06dd483d8767257a0800000000000000
+      internalID: -6389914659968459424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hell_run_weak_demon_blue_256_10
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3570576588e917ca0800000000000000
+      internalID: -6020856918414391469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hell_run_weak_demon_blue_256_11
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19cd0276bdd77610800000000000000
+      internalID: 1619006366730275102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hell_run_weak_demon_blue_256_12
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67a811c3c3421c30800000000000000
+      internalID: 4328596699893770092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hell_run_weak_demon_blue_256_0: 8314262571342382061
+      hell_run_weak_demon_blue_256_1: -2824088412678851095
+      hell_run_weak_demon_blue_256_10: -6020856918414391469
+      hell_run_weak_demon_blue_256_11: 1619006366730275102
+      hell_run_weak_demon_blue_256_12: 4328596699893770092
+      hell_run_weak_demon_blue_256_2: 1411572598270725630
+      hell_run_weak_demon_blue_256_3: 9017601991805118623
+      hell_run_weak_demon_blue_256_4: -4746621061279104899
+      hell_run_weak_demon_blue_256_5: 115021539201739986
+      hell_run_weak_demon_blue_256_6: 5150647198386560382
+      hell_run_weak_demon_blue_256_7: -6634866229461360321
+      hell_run_weak_demon_blue_256_8: 7471563437864028798
+      hell_run_weak_demon_blue_256_9: -6389914659968459424
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

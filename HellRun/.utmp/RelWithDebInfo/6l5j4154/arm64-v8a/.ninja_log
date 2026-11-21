@@ -1,0 +1,12 @@
+# ninja log v5
+1690	2520	8168683838611838	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	c70f1871914fa387
+1	2933	8168683842959229	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	d4fad12544d814e
+172	3073	8168683844328472	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	be06afdd6fae5635
+2524	3326	8168683846532321	C:/Users/mtxil/Desktop/Games/Projects/HellRun/HellRun/HellRun/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/6l5j4154/obj/arm64-v8a/libswappywrapper.so	9e346bcf6332406e
+777	3640	8168683850094991	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	9cd63f48c52b8f0f
+969	3815	8168683851888915	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	25021c63c3e161f0
+1163	4049	8168683854008184	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	d7b06d2f5b5c2b88
+583	4073	8168683854320920	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	4c1a7affe820479f
+389	4172	8168683855322822	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	f25d31a838dc8a28
+1420	4349	8168683857120271	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	ffdc56c602860f17
+4350	4869	8168683862317339	C:/Users/mtxil/Desktop/Games/Projects/HellRun/HellRun/HellRun/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/6l5j4154/obj/arm64-v8a/libgame.so	c024061c004fbfba

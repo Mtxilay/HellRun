@@ -29,6 +29,15 @@ Players can also unlock special attacks, improve their builds, and gradually pro
 
 The game uses procedurally arranged level sections and encounters, making each run different while maintaining a structured progression through Hell.
 
+## Goals
+The main goal is to escape Hell by completing three levels, each ending with a boss fight.
+
+Each level is procedurally generated from reusable assets and enemy encounters, making every run different. To complete a level, players must defeat a required number of monsters to unlock the boss fight. Defeating the boss allows them to advance to the next level.
+
+During runs, players aim to survive, defeat monsters, collect resources, and reach new levels. Progress can be measured through monsters killed, bosses defeated, levels completed, and the farthest level reached.
+
+Between runs, players collect resources to unlock new guitars, upgrade their stats, and improve their abilities, allowing them to progress farther through Hell.
+
 ## Why come back?
 Guitar collection and upgrades give players a reason to keep playing, experiment with different abilities and builds, and become powerful enough to reach deeper areas of Hell and eventually, escape.
 
@@ -52,3 +61,8 @@ The game uses pixel-art environments, demonic creatures, lava, and heavy metal a
 
 The goal is to make the player feel like they are performing an epic metal song while fighting through hordes of demons.
 
+## Scope check
+ Hybrid-casual: simple core + a meta layer
+ Portrait, one thumb
+ 1–3 minute sessions (can be longer depending on player skills)
+ Small: 3 core levels

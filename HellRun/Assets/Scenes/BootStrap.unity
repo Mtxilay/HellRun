@@ -148,6 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7424b90c44ea49344aa8aa2e5a48c080, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BootStrap
+  economyConfig: {fileID: 11400000, guid: 05f72ef598fdd81448786e5034ec9aa9, type: 2}
 --- !u!4 &883517001
 Transform:
   m_ObjectHideFlags: 0

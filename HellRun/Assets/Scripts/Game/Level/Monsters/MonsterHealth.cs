@@ -29,6 +29,7 @@ public class MonsterHealth : MonoBehaviour
 
     void Die()
     {
+        this.gameObject.GetComponent<CrystalDispener>().DropBasicCrystal();
         Destroy(this.gameObject);
     }
 

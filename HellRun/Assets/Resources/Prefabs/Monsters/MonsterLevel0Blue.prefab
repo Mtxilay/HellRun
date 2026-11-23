@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8304979607993272279}
   - component: {fileID: 5529877811820879420}
   - component: {fileID: 7925803078345683623}
+  - component: {fileID: 6370632971350037959}
   m_Layer: 0
   m_Name: MonsterLevel0Blue
   m_TagString: Untagged
@@ -171,3 +172,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e977e329372d3d24c8244005f3f3b3c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Game::MonsterAttacker
+--- !u!114 &6370632971350037959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035438712587513780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa462bcb54cfbda40a541138902f14c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Game::CrystalDispener

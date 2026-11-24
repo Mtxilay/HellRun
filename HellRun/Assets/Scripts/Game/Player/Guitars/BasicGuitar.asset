@@ -17,3 +17,5 @@ MonoBehaviour:
   guitarImage: {fileID: 0}
   baseDamage: 100
   maxDurability: 100
+  damagePerUpgrade: 10
+  durabilityPerUpgrade: 10

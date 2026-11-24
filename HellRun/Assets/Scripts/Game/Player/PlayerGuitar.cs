@@ -10,12 +10,15 @@ public class PlayerGuitar : MonoBehaviour
 
     public float MaxDurability { get; private set; }
 
-    public float Damage => equippedGuitar.baseDamage;
+    public float Damage;
+
+    private float guitarDamageLevel => Services.Save.GetInt($"Guitar{equippedGuitar.guitarID}DamageLevel");
 
     private void Awake()
     {
         CurrentDurability = equippedGuitar.maxDurability;
         MaxDurability = equippedGuitar.maxDurability;
+        Damage=equippedGuitar.baseDamage+equippedGuitar.damagePerUpgrade*guitarDamageLevel;
     }
 
     public void TakeDamage(float damage)

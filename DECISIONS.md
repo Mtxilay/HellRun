@@ -1,5 +1,13 @@
 # Decision log
 
+## 2026-11-28 — Target 30 FPS on Android
+
+Options: target 30 FPS / target 60 FPS.
+Chose: 30 FPS, as agreed during LG Q7 testing. A 33.33 ms frame budget is a more realistic target for this phone than the 16.67 ms needed for 60 FPS. Keep Android Optimized Frame Pacing disabled: the recorded gameplay improved from 50.073 ms (20.0 FPS) to 33.402 ms (29.9 FPS) after disabling it. This result applies to the LG Q7 and should be checked on other devices before release.
+Implementation: `Application.targetFrameRate = 30` in `HellRun/Assets/Scripts/Game/Crystals/RunCrystalCounter.cs`; `androidUseSwappy: 0` in `HellRun/ProjectSettings/ProjectSettings.asset`.
+AI: helped investigate the captures, ran the final phone recording, and drafted the measurements and wording. Ilay chose the target and disabled Optimized Frame Pacing.
+Who: Ilay Fridman.
+
 Add an entry every time the team makes a real choice: a tool, a design, a trade-off.
 About 1–2 entries a week. Newest at the top. Write the reasoning yourselves; AI may fix the wording.
 

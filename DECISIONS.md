@@ -38,4 +38,9 @@ Who: Ilay
 Options: Code myself/Let AI Code
 Chose: i let the ai create the code because that is how the industry works today and i need to practice code reviewing AI
 Who: Ilay
+
+## 14/11/2026 — Guitar data saved as assets
+Options: save guitars as monobehaviour/c# script/scriptable object
+Chose: allwos easy access to data and to create multiple variations of guitars
+Who: Ilay
 ```

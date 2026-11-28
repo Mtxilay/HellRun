@@ -16,8 +16,9 @@ public class PlayerGuitar : MonoBehaviour
 
     private void Awake()
     {
-        CurrentDurability = equippedGuitar.maxDurability;
-        MaxDurability = equippedGuitar.maxDurability;
+        int durabilityLevel = Services.Save.GetInt($"Guitar{equippedGuitar.guitarID}DurabilityLevel");
+        MaxDurability = equippedGuitar.maxDurability + equippedGuitar.durabilityPerUpgrade * durabilityLevel;
+        CurrentDurability = MaxDurability;
         Damage=equippedGuitar.baseDamage+equippedGuitar.damagePerUpgrade*guitarDamageLevel;
     }
 

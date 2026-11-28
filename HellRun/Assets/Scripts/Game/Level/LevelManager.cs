@@ -9,7 +9,12 @@ public class LevelManager : MonoBehaviour
     private MonsterGenerator monsterGenerator;
     private GameObject[] player;
     public int currentLevel = 0;
-    public int currentSpeed = 1;
+    public float currentSpeed = 3f;
+    public float speedIncreaseInterval = 5f;
+    public float speedGrowth = 1.01f;
+    public float maxSpeed = 6f;
+
+    private float speedTimer;
 
     public event Action moveMosters;
 
@@ -26,7 +31,19 @@ public class LevelManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        UpdateSpeed();
         UpdateRun();
+    }
+
+    private void UpdateSpeed()
+    {
+        speedTimer += Time.deltaTime;
+
+        if (speedTimer >= speedIncreaseInterval)
+        {
+            speedTimer -= speedIncreaseInterval;
+            currentSpeed = Mathf.Min(currentSpeed * speedGrowth, maxSpeed);
+        }
     }
 
 

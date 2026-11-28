@@ -1,53 +1,53 @@
-using System.ComponentModel.Design;
-using System.Runtime.Serialization;
-using System.Text.Json.Nodes;
-using UnityEngine;
-
-public class MetaManager
+public static class MetaManager
 {
+    public static int currentGuitarID;
 
- public static int currentGuitarID; 
-
- private GuitarData equippedGuitar;
-
- public static void Initialize()
+    public static void Initialize()
     {
-        currentGuitarID = Services.Save.GetInt("CurrentGuitarID");
-        if(currentGuitarID==0)
+        currentGuitarID = Services.Save.GetInt("CurrentGuitarID", 1);
+        if (currentGuitarID <= 0)
         {
-            currentGuitarID=1;
-            Services.Save.SetInt($"Guitar{currentGuitarID}LockState",1);
+            currentGuitarID = 1;
         }
-    }  
-
-
-public static GuitarProgression GetGuitarProgression(int guitarID)
-    {
-        GuitarProgression guitarProgression = new GuitarProgression();
-        guitarProgression.damageLevel=Services.Save.GetInt($"Guitar{guitarID}DamageLevel");
-        guitarProgression.durabilityLevel=Services.Save.GetInt($"Guitar{guitarID}DurabilityLevel");
-        guitarProgression.unlocked= Services.Save.GetInt($"Guitar{guitarID}LockState")==0 ? false: true;
-        return guitarProgression;
-
+        Services.Save.SetInt("CurrentGuitarID", currentGuitarID);
+        Services.Save.SetInt("Guitar1LockState", 1);
     }
 
-
-public static bool BuyGuitarDamageUpgrade(int guitarID)
+    public static GuitarProgression GetGuitarProgression(int guitarID)
     {
-        
+        return new GuitarProgression
+        {
+            damageLevel = Services.Save.GetInt($"Guitar{guitarID}DamageLevel"),
+            durabilityLevel = Services.Save.GetInt($"Guitar{guitarID}DurabilityLevel"),
+            unlocked = Services.Save.GetInt($"Guitar{guitarID}LockState") == 1
+        };
+    }
+
+    public static bool BuyGuitarDamageUpgrade(int guitarID)
+    {
+        return BuyUpgrade(guitarID, $"Guitar{guitarID}DamageLevel");
+    }
+
+    public static bool BuyGuitarDurabilityUpgrade(int guitarID)
+    {
+        return BuyUpgrade(guitarID, $"Guitar{guitarID}DurabilityLevel");
+    }
+
+    private static bool BuyUpgrade(int guitarID, string levelKey)
+    {
+        int level = Services.Save.GetInt(levelKey);
+        if (guitarID <= 0 || level < 0 ||
+            Services.Save.GetInt($"Guitar{guitarID}LockState") != 1 ||
+            level >= Services.Config.Economy.upgradeMaxLevel)
+            return false;
+
+        int cost = Services.Config.Economy.GetUpgradeCost(level + 1);
         int balance = Services.Save.GetInt("crystals");
-        int damagelvl=Services.Save.GetInt($"Guitar{guitarID}DamageLevel");
-        int cost = Services.Config.Economy. GetUpgradeCost(damagelvl);
-        bool unlocked = Services.Save.GetInt($"Guitar{guitarID}LockState")==0 ? false: true;
-        if (damagelvl >= Services.Config.Economy.upgradeMaxLevel || balance<cost || unlocked==false) return false;
-        Services.Save.SetInt($"Guitar{guitarID}DamageLevel",damagelvl+1);
-        Services.Save.SetInt("crystals",balance-cost);
+        if (cost <= 0 || balance < cost)
+            return false;
+
+        Services.Save.SetInt("crystals", balance - cost);
+        Services.Save.SetInt(levelKey, level + 1);
         return true;
     }
-
-public static void BuyGuitarDurabilityUpgrade(int cost,int guitarID)
-    {
-        
-    }
-
 }

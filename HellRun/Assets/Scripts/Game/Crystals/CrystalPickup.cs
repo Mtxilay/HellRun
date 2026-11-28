@@ -1,8 +1,19 @@
+using System;
 using UnityEngine;
 
 public class CrystalPickup : MonoBehaviour
 {
+    public static int CollectedThisRun { get; private set; }
+    public static event Action<int> OnCrystalsCollected;
+
     private int crystalValue;
+    private bool collected;
+
+    public static void ResetRun()
+    {
+        CollectedThisRun = 0;
+    }
+
     public void Initialize(int value)
     {
         crystalValue = value;
@@ -13,12 +24,12 @@ public class CrystalPickup : MonoBehaviour
     {
         PlayerGuitar playerGuitar = other.GetComponentInParent<PlayerGuitar>();
 
-        if (playerGuitar == null)
+        if (playerGuitar == null || collected)
             return;
 
-        int balance = Services.Save.GetInt("crystals");
-        Services.Save.SetInt("crystals", balance + crystalValue);
-        Debug.Log($"Crystals: {balance + crystalValue}");
+        collected = true;
+        CollectedThisRun += crystalValue;
+        OnCrystalsCollected?.Invoke(CollectedThisRun);
         Destroy(gameObject);
     }
 }

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: de28efa3290275f41890a513086009e6
+guid: e1035b9b69763d74c8efbce645709b36
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4779718236069538553
-    second: Seamless Pixel Lava Bridge_0
+      213: 3891207040191599735
+    second: Seamless Pixel Lava Bridge 512_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,9 +40,9 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 209
+  spritePixelsToUnits: 85.33
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -79,7 +79,7 @@ TextureImporter:
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
-    crunchedCompression: 0
+    crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
     ignorePlatformSupport: 0
@@ -128,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Seamless Pixel Lava Bridge_0
+      name: Seamless Pixel Lava Bridge 512_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1254
-        height: 1254
+        width: 512
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,8 +143,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9faa1636968f45240800000000000000
-      internalID: 4779718236069538553
+      spriteID: 7749e12cf28500630800000000000000
+      internalID: 3891207040191599735
       vertices: []
       indices: 
       edges: []
@@ -163,7 +163,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Seamless Pixel Lava Bridge_0: 4779718236069538553
+      Seamless Pixel Lava Bridge 512_0: 3891207040191599735
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

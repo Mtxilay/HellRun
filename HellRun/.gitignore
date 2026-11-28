@@ -11,3 +11,10 @@
 
 # Generated IDE solution files
 *.slnx
+
+# Generated Android native-build cache
+/.utmp/
+
+# Rebuildable Profiler previews (raw captures are kept)
+/ProfilerCaptures/*.bc7
+/ProfilerCaptures/*.highlights
